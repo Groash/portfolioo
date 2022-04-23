@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё портфолио АЖ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1 nav -->
+    <nav class="navbar">
+        <h1 class="brand">Akatsuki company</h1>
+			<img src ="https://avatars.mds.yandex.net/i?id=4a436e72c98f16b6086165d74011e97d-5238257-images-thumbs&n=13 width="100px" align="right">
+        <ul class="link-container">
+            <li class="links-item"><a href="#" class="link active">Начало</a></li>
+            <li class="links-item"><a href="#about-section" class="link">Описание</a></li>
+            <li class="links-item"><a href="#skills-section" class="link">Умения</a></li>
+            <li class="links-item"><a href="#project-section" class="link">Хобби</a></li>
+            <li class="links-item"><a href="#contact-section" class="link">Связаться</a></li>
+
+            <li class="links-item">
+                <div id="finevision_banner" onclick="finevision.activate_navbar()"
+                    style="cursor: pointer; z-index: 9999; background: rgb(255, 255, 255); float: right; position: fixed; top: 10px; left: auto; right: 60px;">
+                    <img width="109" src="https://finevision.ru/static/banner2.jpg">
+                    <script src="https://finevision.ru/static/js/finevision_banner.js"></script>
+                </div>
+            </li> 
+            
+        </ul>
+    </nav>
+
+    <!-- 2 home section-->
+    <section class="home">
+        <div class="hero-content">
+            <h1 class="hero-heading"><span class="highlight">Привет!, </span>Меня зовут Александр!</h1>
+            <p class="profession">Специалист по ПК</p>
+            <p class="info">Мой стаж работы насчитывает более 10-ти лет! Я чиню компьютеры и ноутбуки с  7 лет, как только научился готовить.
+            </p>
+            <a href="#contact-section" class="btn">Написать мне</a>
+        </div>
+        <img src="https://sun9-35.userapi.com/impf/c857524/v857524682/a7a76/FdzDEZ9Ec7w.jpg?size=811x926&quality=96&sign=e0699972e68399334d807054f33167b6&type=album width="726" height="611" alt="Hero" class="image">
+    </section>
+
+    <!-- 3 About section -->
+    <section class="about" id="about-section">
+        <h2 class="heading">Подробнее о<span class="highlight"> нас!</span></h2>
+        <p class="sub-heading">В данной секции вы можете прочитать описание моей деятельности</p>
+        <div class="seperator"></div>
+        <div class="about-me-container">
+            <div class="left-col">
+                <img src="https://sun9-77.userapi.com/impf/GPr7mrNjUHu_qjEQuAiFML2RDu9VRfRXm6HdmQ/ahrORDIVOaM.jpg?size=1939x2160&quality=96&sign=18abc97c8ecee084902430320af34493&type=album" width="470px" height="560px" class="about-image" alt="">
+            </div>
+            <div class="right-col">
+                <p class="about-para">
+                    Группа шиноби, существующая за пределами обычной системы скрытых деревень. 
+					В течение нескольких десятилетий, Akatsuki company принимала различные формы и возглавлялось различными людьми. 
+					Хотя каждый её состав считался или диверсантами или преступниками, все они стремились сделать мир лучше для жизни согласно собственному видению. 
+					Каждая версия Akatsuki company имела множество укрытий по всему миру, недоступных либо из-за их удаленности, либо разных мер безопасности, которые их защищали.
+                </p>
+                <a href="#contact-section" class="btn">Написать мне</a>
+            </div>
+        </div>
+
+        <h2 class="heading" id="skills-section">Что я умею <span class="highlight"> делать?</span></h2>
+        <div class="seperator"></div>
+        <div class="skill-container" >
+            <div class="skill-card" style="--bg: #f06529">
+                <p class="skill">Очистка ПК</p>
+            </div>
+            <div class="skill-card" style="--bg: green">
+                <p class="skill">Качественная работа</p>
+            </div>
+            <div class="skill-card large" style="--bg: red">
+                <p class="skill">Ремонт ПК</p>
+            </div>
+            <div class="skill-card large" style="--bg: orange">
+                <p class="skill">Консультация</p>
+            </div>
+            <div class="skill-card" style="--bg: blue">
+                <p class="skill">Установка лицензионной ОС</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4 Project Section -->
+    <section class="project" id="project-section">
+        <h2 class="heading">Мои <span class="highlight">Хобби</span></h2>
+        <p class="sub-heading">В данной секции вы можете увидеть чем я занимаюсь в свободное время. </p>
+        <div class="seperator"></div>
+
+    <div class="project-container">
+        <div class="project-card">
+            <a href="/sites/marks.html">
+            <img src="https://mskmobile.ru/admin/_files/catalog/racket/cornilleau-raketka_tacteo_3_big.jpg" alt="First">
+            <div class="content">
+                <h1 class="project-name">Пинг-понг</h1>
+            </div>
+        </a>
+        </div>
+        <div class="project-card">
+            <a href="/sites/volleybol.html">
+            <img src="https://i.pinimg.com/236x/12/92/37/129237399991fe90f850595d6bf29f83.jpg" alt="Two">
+            <div class="content">
+                <h1 class="project-name">Оригами</h1>
+            </div>
+        </a>
+        </div>
+        <div class="project-card">
+            <a href="/sites/travel.html">
+            <img src="https://avatars.mds.yandex.net/get-zen_doc/4079337/pub_60c60ef8123d127494c106f6_60c60fbc2b8b16589cc1cc6b/scale_1200" alt="Three">
+            <div class="content">
+                <h1 class="project-name">Волейбол</h1>
+            </div>
+        </a>
+        </div>
+        <div class="project-card">
+            <a href="/sites/english.html">
+            <img src="https://admlempino.ru/images/phocagallery/2018-02-22/1.jpg" alt="Four">
+            <div class="content">
+                <h1 class="project-name">Начинаю изучать Хантыйский язык</h1>
+            </div>
+        </a>
+        </div>
+    </div>
+    </section>
+
+    <!-- 5 Contact form -->
+    <section class="contact" id="contact-section">
+        <h2 class="heading">Форма<span class="highlight"> связи</span></h2>
+        <p class="sub-heading">На данной странице вы можете связаться с нами. </p>
+        <div class="seperator"></div>
+        <script src="https://yastatic.net/s3/frontend/forms/_/embed.js"></script>
+<iframe src="https://forms.yandex.ru/u/626378268abcaa4f3ba68f7e/?iframe=1" frameborder="0" name="ya-form-626378268abcaa4f3ba68f7e" width="500"></iframe>э
+    </section>
+<footer class="footer">© Alexander Zhukov. Мой номер:<a style="position: absolute; left: 56%; text-decoration: none; color: white;" href="tel:+79826666666">+79826666666</a>
+    <script src="js/app.js"></script>
+</footer>
+</body>
+</html>
